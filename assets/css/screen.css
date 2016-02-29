@@ -6,6 +6,10 @@ body {
 p {
 	line-height: 25px;
 }
+img {
+    max-width: 80%;
+    height: auto;
+}
 .mytheme_page {
 	max-width: 1000px;
 	margin: 0 auto;
