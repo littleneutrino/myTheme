@@ -7,15 +7,12 @@
          {{#post}}
             <header class="mytheme_post_header">
                 <h1 class="mytheme_post_title">{{{title}}}</h1>
-                <section class="post-meta">
-                <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">
-                  {{date format="DD MMMM YYYY"}}
-                </time>
-                  {{tags prefix=" on "}}
-                </section>
             </header>
 
             <article>
+              <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">
+                {{date format="DD MMMM YYYY"}}
+              </time>
                 {{content}}
             </article>
              <footer class="post-footer">
