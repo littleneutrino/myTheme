@@ -9,6 +9,7 @@ p {
 img {
     max-width: 90%;
     height: auto;
+		margin: auto;
 }
 .mytheme_page {
 	max-width: 1000px;
