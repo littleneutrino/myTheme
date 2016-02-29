@@ -277,8 +277,20 @@ body.nav-opened .nav-cover {
 	text-align: center;
 	color: #2F3727;
 }
-.page-title a:link .page-title a:visited{
+.page-title a:link {
 	text-decoration: none;
+	padding:20px 0;
+	text-shadow: 2px 2px 2px rgba(26, 26, 26, 0.1);
+	text-align: center;
+	color: #2F3727;
+
+}
+.page-title a:visited {
+	padding:20px 0;
+	text-decoration: none;
+	text-shadow: 2px 2px 2px rgba(26, 26, 26, 0.1);
+	text-align: center;
+	color: #2F3727;
 
 }
 .inner {
