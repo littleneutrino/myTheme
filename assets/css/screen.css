@@ -19,12 +19,17 @@ img {
 		display:inline-block;
 		list-style-type: none;
 }
-.nav ul li a:hover {
+.nav ul li:hover {
+	background-color: #888;
+	display:inline-block;
+	list-style-type:none
+}
+/*.nav ul li a:hover {
 	background-color: #888;
 	display:inline-block;
 	list-style-type:none;
 
-}
+}*/
 .nav > ul > li > a {
 	color: #aaa;
 	background-color: #333;
@@ -34,21 +39,21 @@ img {
 	padding: 0.5em 0.5em
 }
 .page-title {
-	padding:20px 0;
+	padding:5px 0;
 	text-shadow: 2px 2px 2px rgba(26, 26, 26, 0.1);
 	text-align: center;
 	color: #2F3727;
 }
 .page-title a:link {
 	text-decoration: none;
-	padding:20px 0;
+	padding:5px 0;
 	text-shadow: 2px 2px 2px rgba(26, 26, 26, 0.1);
 	text-align: center;
 	color: #2F3727;
 
 }
 .page-title a:visited {
-	padding:20px 0;
+	padding:5px 0;
 	text-decoration: none;
 	text-shadow: 2px 2px 2px rgba(26, 26, 26, 0.1);
 	text-align: center;
@@ -62,7 +67,7 @@ img {
     margin: 0 auto;
 }
 .page-description {
-	padding:20px 0;
+	padding:10px 0;
 	text-shadow: 2px 2px 2px rgba(26, 26, 26, 0.1);
 	text-align: center;
 	color: #2F3727;
