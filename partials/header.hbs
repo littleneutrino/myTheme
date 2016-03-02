@@ -1,5 +1,10 @@
 {{! The big featured header on the homepage, with the site logo and description }}
 <header class="main-header {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
+    <nav>
+      <div class="nav-wrapper">
+        {{> navigation}}
+      </div>
+    </nav>
     <div class="vertical">
         <div class="main-header-content inner">
             <h1 class="page-title"><a href="http://beumel.net">{{@blog.title}}</a></h1>
