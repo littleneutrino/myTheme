@@ -120,6 +120,11 @@ main article {
 	padding-top: 20px;
 	color: #FFFFFF;
 }
+.mytheme_tag {
+	float: left;
+	padding-top: 20px;
+	color: #FFFFFF;
+}
 .button {
 	float: right;
 	padding: 20px 0;
