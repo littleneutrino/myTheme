@@ -125,6 +125,11 @@ main article {
 	padding-top: 20px;
 	color: #FFFFFF;
 }
+.mytheme_tag a{
+	text-decoration: none;
+	color: #FFFFFF;
+
+}
 .button {
 	float: right;
 	padding: 20px 0;
