@@ -113,17 +113,15 @@ main article {
 }
 .mytheme_post_info {
 	overflow: auto;
-	padding: 0 20px;
+	padding: 10px 0px 10px 0px;
 	background-color: #878787;
 }
 .mytheme_date {
 	float: left;
-	padding-top: 20px;
 	color: #FFFFFF;
 }
 .mytheme_tag {
 	float: left;
-	padding-top: 20px;
 	padding-left: 0.5em;
 	color: #FFFFFF;
 }
@@ -131,20 +129,6 @@ main article {
 	text-decoration: none;
 	color: #FFFFFF;
 
-}
-.button {
-	float: right;
-	padding: 20px 0;
-}
-.button a {
-	padding: 5px;
-	transition: ease .3s;
-	text-decoration: none;
-	color: #FFFFFF;
-	background-color: #39a9da;
-}
-.button a:hover {
-	background-color: #199ed9;
 }
 .pagination {
 	margin: 0 0 20px 0;
