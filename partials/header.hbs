@@ -2,7 +2,7 @@
 <header class="main-header {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
     <nav>
       <div class="nav-wrapper">
-        {{> navigation}}
+        {{navigation}}
       </div>
     </nav>
     <div class="vertical">
@@ -11,5 +11,4 @@
             <h2 class="page-description">{{@blog.description}}</h2>
         </div>
     </div>
-    {{navigation}}
 </header>
