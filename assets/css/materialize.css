@@ -2353,6 +2353,8 @@ sub {
  */
 img {
   border: 0;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 /**
@@ -7828,7 +7830,7 @@ small {
 }
 
 .card .card-content {
-  padding: 20px;
+  padding: 50px;
   border-radius: 0 0 2px 2px;
 }
 
