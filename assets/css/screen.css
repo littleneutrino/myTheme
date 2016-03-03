@@ -102,12 +102,6 @@ main article {
 	color: #FFFFFF;
 
 }
-/*.pagination {
-	margin: 0 0 20px 0;
-	padding: 20px;
-	text-align: center;
-	background-color: #FFFFFF;
-}*/
 .post-template main {
 	margin-top: 30px;
 }
@@ -119,4 +113,8 @@ main article {
 }
 .post .mytheme_post_title {
 	margin-bottom: 0;
+}
+.content {
+	margin: auto;
+	display: block;
 }

@@ -2718,6 +2718,7 @@ video.responsive-video {
   line-height: 30px;
   border-radius: 2px;
   text-align: center;
+  margin: auto;
 }
 
 .pagination li a {
