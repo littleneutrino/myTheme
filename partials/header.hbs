@@ -2,13 +2,14 @@
 <header class="main-header {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
     <nav>
       <div class="nav-wrapper">
+        <a href="http://beumel.net" class="brand-logo right">{{@blog.title}}</a>
         {{navigation}}
       </div>
     </nav>
-    <div class="vertical">
+    <!--<div class="vertical">
         <div class="main-header-content inner">
             <h1 class="page-title"><a href="http://beumel.net">{{@blog.title}}</a></h1>
             <h2 class="page-description">{{@blog.description}}</h2>
         </div>
-    </div>
+    </div> -->
 </header>
