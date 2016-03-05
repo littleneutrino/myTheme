@@ -114,3 +114,6 @@ main article {
 .post .mytheme_post_title {
 	margin-bottom: 0;
 }
+.pagination {
+	text-align: center;
+}

@@ -16,10 +16,12 @@
               {{content words="100"}}
             </div>
             <div class="card-action">
-              <a href="{{url}}">View Post</a>
+                <a href="{{url}}">View Post</a>
               <time datetime="{{date format='DD-MMM-YYYY'}}">{{date format="DD MMM YYYY"}}</time>
-              {{#if tags}}| in <u>{{tags}}{{/if}}</u>
-
+                <div class="chip">
+                  {{#if tags}}<u>{{tags}}{{/if}}</u>
+                  <i class="material-icons">close</i>
+                </div>
             </div>
           </div>
         </div>
