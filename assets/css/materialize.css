@@ -7876,6 +7876,14 @@ small {
   display: block;
 }
 
+.card .card-action .chip a:not(.btn):not(.btn-large):not(.btn-floating) {
+  margin-right: 0;
+}
+
+.card-action .chip a {
+  margin: 0;
+}
+
 #toast-container {
   display: block;
   position: fixed;

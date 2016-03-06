@@ -117,3 +117,7 @@ main article {
 .pagination {
 	text-align: center;
 }
+.time {
+	margin-right: 12px;
+	display: inline-block;
+}
